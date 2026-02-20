@@ -1,0 +1,24 @@
+[project]
+name = "pyoptbook-linopy"
+version = "0.1.0"
+description = "Alternative implementations using linopy (Pythonではじめる数理最適化の代替実装)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "linopy",
+    "jupyter",
+    "ipython",
+    "notebook",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "joblib",
+    "flask",
+    "lxml",
+    "requests",
+]
+
+[tool.uv]
+dev-dependencies = []
