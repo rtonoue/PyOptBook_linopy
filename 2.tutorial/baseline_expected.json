@@ -1,0 +1,6 @@
+{
+  "SLE": { "objective": 0.0, "nvars": 2, "ncons": 2 },
+  "LP": { "objective": 26.0, "nvars": 2, "ncons": 4 },
+  "LP2": { "objective": 80.42857099999999, "nvars": 4, "ncons": 7 },
+  "IP": { "objective": 79.0, "nvars": 4, "ncons": 7 }
+}

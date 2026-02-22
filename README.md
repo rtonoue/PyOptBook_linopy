@@ -82,6 +82,19 @@ as the examples are intended for educational and illustrative purposes.
 
 ---
 
+## Chapters and linopy coverage
+
+| Chapter | Content | linopy 版 |
+|--------|--------|-----------|
+| 2 | チュートリアル | `2.tutorial/tutorial_linopy.ipynb` + 検証 |
+| 3 | 学校のクラス編成 | `3.school/school_linopy.ipynb` + 検証 |
+| 4 | クーポン割引（Problem1） | `4.coupon/coupon_linopy.ipynb` + 検証 |
+| 5 | 配送計画 | ベースライン・検証スクリプト（`run_baseline_pulp.py`, `verify_linopy.py`）。ルート列挙に数分かかります。 |
+| 6 | API 車グループ分け | `6.api/problem_linopy.py`（同一インターフェース）+ 検証。API から `from problem_linopy import CarGroupProblem` で利用可。 |
+| 7 | 商品推薦（興味スコア） | **linopy + HiGHS (QP)** で対応。`run_baseline_cvxopt.py` で cvxopt ベースライン取得、`verify_linopy.py` で同一問題を linopy の二次目的で構築し HiGHS で求解・検証。 |
+
+---
+
 ## License and attribution
 
 This repository is distributed under the MIT License,

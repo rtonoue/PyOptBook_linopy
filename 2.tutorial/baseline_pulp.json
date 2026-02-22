@@ -1,0 +1,46 @@
+{
+  "SLE": {
+    "name": "SLE",
+    "status": "Optimal",
+    "objective": 0.0,
+    "nvars": 3,
+    "ncons": 2,
+    "x": 2.0,
+    "y": 8.0
+  },
+  "LP": {
+    "name": "LP",
+    "status": "Optimal",
+    "objective": 26.0,
+    "nvars": 2,
+    "ncons": 4,
+    "x": 18.0,
+    "y": 4.0
+  },
+  "LP2": {
+    "name": "LP2",
+    "status": "Optimal",
+    "objective": 80.42857099999999,
+    "nvars": 4,
+    "ncons": 7,
+    "x": {
+      "p1": 12.142857,
+      "p2": 3.5714286,
+      "p3": 7.4285714,
+      "p4": 0.0
+    }
+  },
+  "IP": {
+    "name": "IP",
+    "status": "Optimal",
+    "objective": 79.0,
+    "nvars": 4,
+    "ncons": 7,
+    "x": {
+      "p1": 13.0,
+      "p2": 3.0,
+      "p3": 7.0,
+      "p4": -0.0
+    }
+  }
+}
